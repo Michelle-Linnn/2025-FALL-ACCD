@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>数字组成的狗狗图案</title>
+    <title>DOGGY</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
@@ -21,21 +21,10 @@
         }
     </script>
     <style type="text/tailwindcss">
-        @layer utilities {
-            .number-cell {
-                @apply flex items-center justify-center text-sm md:text-base font-mono transition-all duration-300;
-            }
-            .number-cell:hover {
-                @apply transform scale-110 bg-gray-100 rounded;
-            }
-        }
+       
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen flex flex flex-col items-center justify-center p-4">
-    <div class="text-center mb-8">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">数字组成的狗狗</h1>
-        <p class="text-gray-600">由黑色数字0-9排列形成的狗狗图案</p>
-    </div>
     
     <!-- 数字图案容器 -->
     <div id="dogPattern" class="grid gap-0.5 bg-gray-100 p-1 rounded-lg shadow-lg max-w-2xl mx-auto"></div>
